@@ -10,7 +10,7 @@ import java.util.List;
 * 类说明
 */
 public class combinationSum {
-	public static List<List<Integer>> combinationSum(int[] candidates, int target) {
+	public static List<List<Integer>> combinationSum1(int[] candidates, int target) {
         List<List<Integer>> LList = new ArrayList<List<Integer>>();  // 最终的结果集
         if(candidates == null || candidates.length < 1 || target < 1 )
             return LList;
@@ -44,6 +44,6 @@ public class combinationSum {
         }
     }
 	public static void main(String[] args) {
-		System.out.println(combinationSum((new int[]{2,3,5}),7));
+		System.out.println(combinationSum1((new int[]{2,3,5}),7));
 	}
 }

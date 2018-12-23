@@ -5,7 +5,7 @@ package cn.edu.leetcode;
 * ภเหตร๗
 */
 public class myAtoi {
-	public static int myAtoi(String str) {
+	public static int myAtoi1(String str) {
         if(str.equals("")){
             return 0;
         }
@@ -49,6 +49,6 @@ public class myAtoi {
 		}
     }
 	public static void main(String[] args) {
-		System.out.println(myAtoi("-42"));
+		System.out.println(myAtoi1("-42"));
 	}
 }

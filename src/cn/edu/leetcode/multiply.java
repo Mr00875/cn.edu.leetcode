@@ -5,7 +5,7 @@ package cn.edu.leetcode;
 * ÀàËµÃ÷
 */
 public class multiply {
-	public static String multiply(String num1, String num2) {
+	public static String multiply1(String num1, String num2) {
         char[] value = new char[num1.length() + num2.length()];
         for (int i = num1.length() - 1; i >= 0; i--) {
             for (int j = num2.length() - 1; j >= 0; j--) {
@@ -29,6 +29,6 @@ public class multiply {
         return new String(value, beginIndex, value.length - beginIndex);
     }
 	public static void main(String[] args) {
-		System.out.println(multiply("123", "456"));
+		System.out.println(multiply1("123", "456"));
 	}
 }

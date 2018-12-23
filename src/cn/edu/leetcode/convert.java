@@ -3,8 +3,6 @@ package cn.edu.leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.sql.Array;
-import java.util.Arrays;
 
 
 /**
